@@ -1,0 +1,6 @@
+@UPSA203API_HostAddress = http://localhost:5020
+
+GET {{UPSA203API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
