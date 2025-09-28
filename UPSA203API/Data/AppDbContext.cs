@@ -8,5 +8,7 @@ namespace UPSA203API.Data
         public AppDbContext(DbContextOptions<AppDbContext> options) : base(options) { }
 
         public DbSet<Workout> Workouts { get; set; }
+        public DbSet<Meal> Meals { get; set; }
+        
     }
 }
